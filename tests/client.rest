@@ -1,0 +1,46 @@
+
+GET http://localhost:3000/task/all
+
+###
+GET  http://localhost:3000/user/660836104e3f10a2a2babb75
+
+###
+PUT  http://localhost:3000/task/update/66097428cf487b2d2d221387
+Content-Type: application/json
+
+{
+    "titleEdit":"Cooking Beef"
+}
+###
+GET http://localhost:3000/task/660975f512eeba52782e230f
+
+###
+POST http://localhost:3000/task/post-task
+Content-Type: application/json
+
+{
+    "title":"Cooking Cake",
+    "description":"Suppermingo"
+}
+
+####
+POST http://localhost:3000/user/post-user
+Content-Type: application/json
+
+{
+    "name":"kelly",
+    "email":"kelly@gmail.com",
+    "password":"kelly123",
+    "profile":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmu5Zxlx9r5oCmkHcerRyyYcwVw5WtFe5BHEV8Un-NTg&s"
+}
+
+###
+POST http://localhost:3000/user/login
+Content-Type: application/json
+
+{
+    "email":"john@gmail.com",
+    "password":"john123"
+}
+
+# todo

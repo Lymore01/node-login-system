@@ -1,5 +1,5 @@
 
-GET http://localhost:3000/task/all
+GET http://localhost:3000/email
 
 ###
 GET  http://localhost:3000/user/660836104e3f10a2a2babb75
